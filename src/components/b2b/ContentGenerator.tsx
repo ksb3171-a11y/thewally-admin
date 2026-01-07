@@ -1979,7 +1979,7 @@ export const ContentGenerator = () => {
 
       if (successCount > 0) {
         setMessage({
-          type: failCount > 0 ? 'warning' : 'success',
+          type: failCount > 0 ? 'error' : 'success',
           text: failCount > 0
             ? `${successCount}명 발송 성공, ${failCount}명 발송 실패`
             : `${successCount}명 발송 완료`,

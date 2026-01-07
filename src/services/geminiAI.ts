@@ -720,6 +720,8 @@ JSON 배열로만 출력하세요. 다른 설명 없이 아래 형식만 출력:
       promptTokens: usageMetadata.promptTokenCount || 0,
       completionTokens: usageMetadata.candidatesTokenCount || 0,
       totalTokens: usageMetadata.totalTokenCount || 0,
+      estimatedCostUSD: 0,
+      estimatedCostKRW: 0,
     } : undefined;
 
     // JSON 파싱
